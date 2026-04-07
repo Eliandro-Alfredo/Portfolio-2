@@ -1,0 +1,115 @@
+.html {
+    background-color: white; 
+    width: 80%;
+    height: 0.8vh; 
+    margin-top: 1vh; 
+    border-radius: 1vh;
+    animation: html 3s;
+}
+
+@keyframes html {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 80%;
+    }
+}
+
+.php {
+    background-color: white; 
+    width: 60%;
+    height: 0.8vh; 
+    margin-top: 1vh; 
+    border-radius: 1vh;
+    animation: php 3s;
+}
+
+
+
+@keyframes php {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 60%;
+    }
+}
+
+.react {
+    background-color: white; 
+    width: 20%;
+    height: 0.8vh; 
+    margin-top: 1vh; 
+    border-radius: 1vh;
+    animation: react 3s;
+}
+
+@keyframes react {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 20%;
+    }
+}
+
+.laravel {
+    background-color: white; 
+    width: 30%;
+    height: 0.8vh; 
+    margin-top: 1vh; 
+    border-radius: 1vh;
+    animation: laravel 3s;
+}
+
+@keyframes laravel {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 30%;
+    }
+}
+
+.mysql {
+    background-color: white; 
+    width: 65%;
+    height: 0.8vh; 
+    margin-top: 1vh; 
+    border-radius: 1vh;
+    animation: mysql 3s;
+}
+
+@keyframes mysql {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 65%;
+    }
+}
+
+.webdesign {
+    background-color: white; 
+    width: 75%;
+    height: 0.8vh; 
+    margin-top: 1vh; 
+    border-radius: 1vh;
+    animation: webdesign 3s;
+}
+
+@keyframes webdesign {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 75%;
+    }
+}

@@ -1,0 +1,292 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+    text-decoration: none;
+    list-style: none;
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(to right, #07233b, #050e17);
+}
+
+header {
+    width: 100%;
+}
+
+/*   - Cabeçalho -   */
+
+#cabecalho {
+    width: 100%;
+    display: flex;
+    margin-top: 2vh;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#lista-menu {
+    display: flex;
+}
+
+#lista-menu li {
+    font-size: 2vh;
+    margin-right: 3vh;
+}
+
+#cabecalho-mobile {
+    width: 100%;
+    display: flex;
+    margin-top: 2vh;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#tela-menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    display: none;
+    margin-top: 2vh;
+    justify-content: space-around;
+    background-image: linear-gradient(to right, #07233b, #050e17);
+}
+
+/*   - Principal -   */
+
+main {
+    width: 100%;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+}
+
+section {
+    width: 100%;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+}
+
+#img-1 {
+    width: 100%;
+    height: 50vh;
+
+}
+
+#nav-section, #nav-section-projecto, #nav-section-contacto {
+    width: 50%;
+    margin: auto;
+    margin-top: 2vh;
+}
+
+button {
+    border: none;
+    padding: 1.5vh;
+    font-size: 1.8vh;
+    padding-left: 1.5vh;
+    padding-right: 1.5vh;
+    border-radius: 2.5vh;
+    background-color: #0585ff;
+}
+
+#separador {
+    width: 100%;
+    height: 12vh;
+    margin-top: 20vh;
+    background-image: linear-gradient(to right, #062d4e, #051a2f);
+}
+
+/*   - Principal - Inicio -   */
+
+#Inicio {
+    display: block;
+}
+
+#span-1 {
+    font-size: 1.6vh;
+    background-color: #0c3457;
+    padding: 0.6vh;
+    border-radius: 0.2vh;
+}
+
+#div-nome span {
+    font-size: 1.4vh;
+    background-color: #0c3457;
+    padding: 0.6vh;
+    border-radius: 0.2vh;
+}
+
+#paragrafo-1 {
+    font-size: 4vh;
+}
+
+#paragrafo-2 {
+    font-size: 4vh;
+    color: #2c8ce0;
+}
+
+#paragrafo-3 {
+    font-size: 2vh;
+    font-weight: 100;
+}
+
+#paragrafo-4 {
+    font-size: 3vh;
+}
+
+#span-2 {
+    background-color: rgba(255, 255, 255, 0);
+    color: #2c8ce0;
+    font-size: 3vh;
+}
+
+/*   - Principal - Habilidades -   */
+
+#Habilidades {
+    display: block;
+}
+
+#habilidades {
+    margin-left: 2vh;
+    margin-top: 2vh;
+    margin-bottom: 6vh;
+}
+
+#barra-habilidade {
+    background-color: rgba(255, 255, 255, 0.178); 
+    width: 100%;
+    height: 0.8vh; 
+    margin-top: 1vh; 
+    margin-bottom: 2vh;
+    border-radius: 1vh;
+}
+
+/*   - Principal - Projectos -   */
+
+#nav-projecto {
+    width: 100%;
+    justify-content: space-evenly;
+    padding-bottom: 20vh;
+}
+
+#nav-projecto-1 {
+    width: 100%;
+    justify-content: space-around;
+}
+
+#nav-projecto-1 div {
+    padding: 1vh;
+    margin-bottom: 2vh;
+    text-align: center;
+    border-radius: 0.5vh;
+    background-color: white;
+    justify-content: space-evenly;
+}
+
+#figure-img {
+    width: 95%;
+}
+
+#figcaption-projecto {
+    color: black;
+    font-size: 2.5vh;
+    font-weight: bold;
+    margin-bottom: 1vh;
+}
+
+#p-img {
+    color: black;
+    font-size: 1.6vh;
+}
+
+/*   - Principal - Serviços -   */
+
+#card-servicos {
+    width: 90%;
+    padding: 10%;
+    justify-content: space-around;
+}
+
+#card {
+    text-align: center;
+    border-radius: 1vh;
+    background-color: white;
+    padding: 1vh;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+}
+
+#card-div {
+    display: block; 
+    justify-content: space-around;
+}
+
+#card figure figcaption {
+    color: black;
+    font-size: 1.8vh;
+}
+
+#card p {
+    color: black;
+    font-size: 1.2vh;
+}
+
+/*   - Principal - Contactos -   */
+
+#nav-contacto {
+    width: 100%;
+    justify-content: space-around;
+}
+
+#nav-contacto-1 {
+    width: 100%;
+    padding: 1vh;
+    color: black;
+    text-align: center;
+    margin-bottom: 2vh;
+    border-radius: 0.8vh;
+    background-color: white;
+}
+
+#nav-contacto-1 img {
+    width: 96%;
+}
+
+#nav-contacto-1 input {
+    color: black;
+    width: 90%;
+    margin-top: 1vh;
+    margin-bottom: 2vh;
+    border: solid 1px black;
+    padding: 1vh;
+}
+
+#nav-contacto-1 textarea {
+    width: 90%;
+    height: 30vh;
+    padding: 1vh;
+    color: black;
+    margin-bottom: 2vh;
+    border: solid 1px black;
+}
+
+#nav-contacto-1 button {
+    width: 90%;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    border-radius: 2px;
+}
+
+/*   - Rodapé -   */
+
+footer {
+    width: 100%;
+    padding-top: 4vh;
+    text-align: center;
+    padding-bottom: 4vh;
+}
+

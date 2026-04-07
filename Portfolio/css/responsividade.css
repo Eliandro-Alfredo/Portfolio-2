@@ -1,0 +1,83 @@
+@media (min-width: 800px) {
+    #cabecalho-mobile {
+        display: none;
+    }
+
+    #Inicio, #Habilidades, #Servicos {
+        display: flex;
+        margin: auto;
+        width: 80%;
+        margin-top: 10vh;
+        margin-bottom: 10vh;
+    }
+
+    #nav-section {
+        width: 40%;
+    }
+
+    #nav-section-projecto, #nav-section-contacto {
+        width: 70%;
+    }
+
+    #nav-projecto-1 {
+        display: flex;
+    }
+    
+    h1 {
+        font-size: 4vh;
+        margin-top: 1vh;
+        margin-bottom: 3vh;
+    }
+}
+
+
+@media (max-width: 776px) {
+    #cabecalho {
+        display: none;
+    }
+
+    h1 {
+        font-size: 4vh;
+        margin-top: 1vh;
+        margin-bottom: 1vh;
+    }
+
+    #card {
+        width: 80%;
+        margin-bottom: 2vh;
+    }
+}
+
+@media (min-width: 700px) {
+    #card-servicos {
+        display: block;
+    }
+
+    #card-div {
+        display: flex;
+        margin-bottom: 3vh;
+    }
+
+    #card {
+        margin-right: 2vh;
+    }
+
+    #nav-projecto, #nav-contacto {
+        display: flex;
+    }
+
+    #nav-projecto-1 div {
+        margin-right: 2vh;
+    }
+
+    #nav-contacto-1 {
+        margin-right: 2vh;
+    }
+
+    h1 {
+        margin-top: 2vh;
+        margin-bottom: 2vh;
+    }
+}
+
+

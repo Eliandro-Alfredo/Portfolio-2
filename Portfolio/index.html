@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/animacao.css">
+    <link rel="stylesheet" href="css/responsividade.css">
+    <title>Eliandro Alfredo</title>
+</head>
+<body>
+    <header>
+        <nav id="cabecalho">
+            <a href="index.html">
+                <img src="img/logo.png" alt="logo" width="50">
+            </a>
+
+            <ul id="lista-menu">
+                <li><a href="#Inicio">INICIO</a></li>
+                <li><a href="#Habilidades">SOBRE ME</a></li>
+                <li><a href="#Projectos">PROJECTOS</a></li>
+                <li><a href="#Servicos">SERVIÇOS</a></li>
+                <li><a href="#Contactos">CONTACTOS</a></li>
+            </ul>
+        </nav>
+        <nav id="cabecalho-mobile">
+            <a href="index.html">
+                <img src="img/logo.png" alt="logo" width="50">
+            </a>
+
+            <img src="img/circled_menu_50px.png" alt="circled_menu_50px" width="40" height="40" onclick="manipular_menu('aberto')">
+        </nav>
+        <nav id="tela-menu">
+            <a href="index.html">
+                <img src="img/logo.png" alt="logo" width="50">
+            </a>
+
+            <img src="img/delete_30px.png" alt="delete_30px" width="40" height="40" onclick="manipular_menu('fechado')">
+        </nav>
+    </header>
+
+    <main>
+        <section id="Inicio">
+            <nav id="nav-section">
+                <div>
+                    <span id="span-1">ELIANDRO ALFREDO</span>
+
+                    <p id="paragrafo-1" style="margin-top: 2vh; margin-bottom: 1vh;">
+                        Olá! Sou o Eliandro
+                    </p>
+
+                    <p id="paragrafo-2">
+                        Sou um técnico de TI |
+                    </p>
+                    
+                    <p id="paragrafo-3" style="margin-top: 4vh;">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure <br>
+                        inventore corporis, beatae in non ex deleniti odio accusantium <br>
+                        aut animi laboriosam quibusdam fugiat quaerat ipsa <br>
+                        neque ab facere  reiciendis?
+                    </p>
+
+                    <button style="margin-top: 6vh;" >Baixar CV</button>
+                </div>
+            </nav>
+            <nav id="nav-section">
+                <img src="img/img-1.png" alt="img-1" id="img-1">
+            </nav>
+        </section>
+
+        <div id="separador"></div>
+
+        <section id="Habilidades">
+            <nav id="nav-section">
+                <span id="span-1">HABILIDADES</span>
+
+                <div id="habilidades">
+                    <p>
+                        HTML, CSS e JS.
+                        <div id="barra-habilidade">
+                            <div class="html"></div>
+                        </div>
+                    </p>
+                    <p>
+                        PHP.
+                        <div id="barra-habilidade">
+                            <div class="php"></div>
+                        </div>
+                    </p>
+                    <p>
+                        React.js e Next.js.
+                        <div id="barra-habilidade">
+                            <div class="react"></div>
+                        </div>
+                    </p>
+                    <p>
+                        Laravel.
+                        <div id="barra-habilidade">
+                            <div class="laravel"></div>
+                        </div>
+                    </p>
+                    <p>
+                        MySql.
+                        <div id="barra-habilidade">
+                            <div class="mysql"></div>
+                        </div>
+                    </p>
+                    <p>
+                        Web Design.
+                        <div id="barra-habilidade">
+                            <div class="webdesign"></div>
+                        </div>
+                    </p>
+                </div>
+            </nav>
+
+            <nav id="nav-section">
+                <span id="span-1">SOBRE ME</span>
+                
+                <p id="paragrafo-4" style="margin-top: 2vh; margin-bottom: 4vh; padding-left: 2vh;">
+                    Eu sou um técnico de <span id="span-2">TI</span> focado em <span id="span-2">Desenvolvimento WEB.</span>
+                </p>
+                <p id="paragrafo-3" style="margin-bottom: 4vh; padding-left: 2vh;">
+                    Olá, eu sou o Eliandro Alfredo, sou técnico de informática focado no desenvolvimento web, ao longo da minha formação adquire habilidades que me permitem dar suporte técnico em algumas areas da informática, também adquire habilidadesque me permitem arcar com problemas de redes de computador!
+                </p>
+                <button style="padding-left: 2vh;">Vamos comversar!</button>
+            </nav>
+        </section>
+
+        <section id="Projectos" style="background-image: linear-gradient(to right, #062d4e, #051a2f);">
+            <nav id="nav-section-projecto">
+                <span id="span-1">MEUS PROJECTOS</span>
+                <h1>Projectos</h1>
+                <nav id="nav-projecto">
+                    <div id="nav-projecto-1">
+                        <div>
+                            <figure>
+                                <img src="img/todo_list.png" alt="todo_list" id="figure-img">
+                                <figcaption id="figcaption-projecto">To Do List</figcaption>
+                                <p id="p-img">
+                                    HTML, CSS e Js.
+                                </p>
+                            </figure>
+                        </div>
+                        <div>
+                            <figure>
+                                <img src="img/calculadora.png" alt="calculadora" id="figure-img">
+                                <figcaption id="figcaption-projecto">Calculadora</figcaption>
+                                <p id="p-img">
+                                    HTML, CSS e Js.
+                                </p>
+                            </figure>
+                        </div>
+                    </div>
+                    <div id="nav-projecto-1">
+                        <div>
+                            <figure>
+                                <img src="img/login.png" alt="png" id="figure-img">
+                                <figcaption id="figcaption-projecto">Sistema de Login</figcaption>
+                                <p id="p-img">
+                                    HTML, CSS e Js.
+                                </p>
+                            </figure>
+                        </div>
+                        <div>
+                            <figure>
+                                <img src="img/quiz.png" alt="quiz" id="figure-img">
+                                <figcaption id="figcaption-projecto">Jogo de Perguntas</figcaption>
+                                <p id="p-img">
+                                    HTML, CSS e Js.
+                                </p>
+                            </figure>
+                        </div>
+                    </div>
+                </nav>
+            </nav>
+        </section>
+
+        <section id="Servicos">
+            <nav id="nav-section">
+                <span id="span-1">SERVIÇOS</span>
+                <p id="paragrafo-4" style="margin-top: 2vh; margin-bottom: 4vh; padding-left: 2vh;">
+                    Meus <span id="span-2">Serviços.</span>
+                </p>
+                <p id="paragrafo-3" style="margin-bottom: 4vh; padding-left: 2vh;">
+                    Olá, eu sou o Eliandro Alfredo, sou técnico de informática focado no desenvolvimento web, ao longo da minha formação adquire habilidades que me permitem dar suporte técnico em algumas areas da informática, também adquire habilidadesque me permitem arcar com problemas de redes de computador!
+                </p>
+                <button style="padding-left: 2vh;">Vamos comversar!</button>
+            </nav>
+
+            <nav id="nav-section">
+                <div id="card-servicos">
+                    <div id="card-div">
+                        <nav id="card">
+                            <figure>
+                                <img src="img/code_file_64px.png" alt="code_file_64px" width="30">
+                                <figcaption>Desenvolvimento Web</figcaption>
+                            </figure>
+                            <p>
+                                Sites, sistemas de gestção, etc.
+                            </p>
+                        </nav>
+                        <nav id="card">
+                            <figure>
+                                <img src="img/code_file_64px.png" alt="code_file_64px" width="30">
+                                <figcaption>Suporte Técnico</figcaption>
+                            </figure>
+                            <p>
+                                Instalação, suporte e manutenção.
+                            </p>
+                        </nav>
+                    </div>
+                    <div id="card-div">
+                        <nav id="card">
+                            <figure>
+                                <img src="img/web_24px.png" alt="code_file_64px" width="30">
+                                <figcaption>Web Design (Respon.)</figcaption>
+                            </figure>
+                            <p>
+                                Crição do layout perfeito.
+                            </p>
+                        </nav>
+                        <nav id="card">
+                            <figure>
+                                <img src="img/code_file_64px.png" alt="code_file_64px" width="30">
+                                <figcaption>Marketing Digital</figcaption>
+                            </figure>
+                            <p>
+                                Trafego pago, publicidade, etc.
+                            </p>
+                        </nav>
+                    </div>
+                </div>
+            </nav>
+        </section>
+
+        <section id="Contactos" style="background-image: linear-gradient(to right, #062d4e, #051a2f);">
+            <nav id="nav-section-contacto">
+                <span id="span-1">MEUS CONTACTOS</span>
+                <h1>CONTACTOS</h1>
+                <nav id="nav-contacto">
+                    <nav id="nav-contacto-1">
+                        <img src="img/img-2.jpg" alt="calculadora">
+                        <div style="width: 100%;">
+                            a
+                        </div>
+                    </nav>
+                    <nav id="nav-contacto-1">
+                        <input type="text" id="nome" placeholder="Disgite o seu nome"> <br>
+                        <input type="text" id="nome" placeholder="Disgite o seu email"> <br>
+                        <input type="email" id="email" placeholder="Disgite o motivo">
+                        <textarea name="assunto" id="assunto" placeholder="De-me mais informaçõo"></textarea>
+                        <button>Enviar</button>
+                    </nav>
+                </nav>
+            </nav>
+        </section>
+    </main>
+
+    <footer>
+        Eliandro Alfredo @ 2024
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
